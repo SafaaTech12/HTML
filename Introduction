@@ -1,0 +1,89 @@
+# HTML Basics
+
+-------------------------------------------------------------------------------------------------------------------------
+## Tags
+Tags use angle brackets < >
+The angle brackets < > enclose the name of the element you want to include on the page.
+Various elements, such as buttons, text, and images, are added to web pages using different tags.
+
+-------------------------------------------------------------------------------------------------------------------------
+## Most Commonly Used HTML Tags
+
+### Structure Tags
+<html>: Defines the root of the HTML document.
+<head>: Contains meta information, links, and the document title.
+<body>: Contains the content visible on the webpage.
+
+### Text and Formatting Tags
+<h1> to <h6>: Define headings (from largest <h1> to smallest <h6>).
+<p>: Defines a paragraph.
+<b> or <strong>: Makes text bold.
+<i> or <em>: Italicizes text.
+<br>: Inserts a line break.
+<span>: Defines inline text styling.
+<div>: Defines a block-level container.
+
+### Links and Media
+<a>: Creates a hyperlink.
+<img>: Displays an image.
+<video>: Embeds a video.
+<audio>: Embeds audio.
+
+### Lists
+<ul>: Defines an unordered list.
+<ol>: Defines an ordered list.
+<li>: Represents a list item.
+
+### Tables
+<table>: Creates a table.
+<tr>: Defines a table row.
+<td>: Defines a table cell.
+<th>: Defines a table header cell.
+
+### Forms
+<form>: Defines a form.
+<input>: Creates an input field (text, password, checkbox, etc.).
+<label>: Labels input elements.
+<button>: Creates a clickable button.
+<select> and <option>: Creates a dropdown menu.
+<textarea>: Creates a multi-line text input.
+
+### Semantic Tags
+<header>: Defines the page header.
+<nav>: Defines navigation links.
+<main>: Represents the main content.
+<section>: Defines sections of content.
+<article>: Defines an independent piece of content.
+<footer>: Defines the page footer.
+<aside>: Defines content aside from the main content (e.g., sidebars).
+
+### Others
+<script>: Embeds JavaScript code.
+<style>: Embeds CSS styles.
+<link>: Links external resources (like CSS files).
+<meta>: Provides metadata about the webpage.
+
+-------------------------------------------------------------------------------------------------------------------------
+##Tags type
+
+### Container tags
+Some HTML elements require both an opening and a closing tag because they contain content or other elements between them.  
+These tags are called **container tags** or **non-void elements**.
+
+The **opening tag** tells the browser where the element starts. It follows this format: <tagname>.
+The **closing tag** tells the browser where the element ends. It follows this format: </tagname> (notice the slash /).
+
+**Syntax**:  
+<tagname>content</tagname>
+
+Examples include <p>, <div>, <h1>, <a>, <ul>, <ol>, and <section>. 
+
+### Empty Tags
+Some HTML elements can be defined with only one tag. They are called **empty tags**.
+
+Examples of empty tags include <img>, <br>, <hr>, <meta>, <input>, and <link>.
+
+
+
+
+
